@@ -25,7 +25,7 @@ const GoalCreator = ({ onAddGoal }) => {
 
   return (
     <div className="goal-creator">
-      <h2>Create New Goal</h2>
+      <h2>Create a New Goal</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Goal Name</label>
