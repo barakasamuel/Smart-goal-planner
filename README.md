@@ -1,3 +1,5 @@
+https://barakasamuel.github.io/Smart-goal-planner/
+
 ## Smart Goal Planner
 
 A modern financial goal tracking application built with React that helps you manage savings goals, track progress, and make deposits.
