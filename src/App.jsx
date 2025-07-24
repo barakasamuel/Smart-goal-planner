@@ -1,11 +1,13 @@
-
 import React, { useState, useEffect } from 'react';
-import GoalDashboard from './components/GoalDashboard/';
-import GoalCreator from './components/GoalCreator/';
-import DepositManager from './components/DepositManager/';
+import GoalDashboard from './Components/GoalDashboard';  
+import GoalCreator from './Components/GoalCreator';      
+import DepositManager from './Components/DepositManager';  
 import './styles.css';
 
-const API_URL = 'http://localhost:3001/goals';
+
+const API_URL = process.env.NODE_ENV === 'production' 
+  ? '/api/goals'  
+  : 'http://localhost:3001/goals';  
 
 function App() {
   const [goals, setGoals] = useState([]);
