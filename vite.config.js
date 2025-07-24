@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/smart-planner/',
+  base: './smart-goal-planner/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
