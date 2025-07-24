@@ -1,0 +1,31 @@
+{
+  "goals": [
+    {
+      "id": "1753221702061",
+      "name": "Samuel Baraka",
+      "targetAmount": 2000,
+      "category": "General",
+      "deadline": "2025-07-14",
+      "savedAmount": 0,
+      "createdAt": "2025-07-22"
+    },
+    {
+      "id": "1753365809179",
+      "name": "sam",
+      "targetAmount": 300000000,
+      "category": "Travel",
+      "deadline": "2025-07-24",
+      "savedAmount": 0,
+      "createdAt": "2025-07-24"
+    },
+    {
+      "id": "1753366338625",
+      "name": "Luciah",
+      "targetAmount": 4000000000,
+      "category": "Education",
+      "deadline": "2025-07-24",
+      "savedAmount": 0,
+      "createdAt": "2025-07-24"
+    }
+  ]
+}
